@@ -1,0 +1,30 @@
+{
+  "name": "AsyncBluetoothSerial",
+  "version": "1.0.0",
+  "keywords": "bluetooth, serial, esp32, async",
+  "description": "A non-blocking Bluetooth Serial library for ESP32 Classic SPP connections, supporting async connect/disconnect and watchdog-friendly loops.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keerekeerweere/AsyncBluetoothSerial"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "platforms": [
+    "espressif32"
+  ],
+  "authors": [
+    {
+      "name": "Keerekeerweere",
+      "email": "keerekeerweere@me.compea.com",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "export": {
+    "include": [
+      "AsyncBluetoothSerial.h",
+      "AsyncBluetoothSerial.cpp"
+    ]
+  }
+}
