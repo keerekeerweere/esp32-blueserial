@@ -24,7 +24,13 @@
   "export": {
     "include": [
       "AsyncBluetoothSerial.h",
-      "AsyncBluetoothSerial.cpp"
+      "AsyncBluetoothSerial.cpp",
+      "BTAddress.h",
+      "BTAddress.cpp",
+      "BTAdvertisedDevice.h",
+      "BTAdvertisedDeviceSet.cpp",
+      "BTScan.h",
+      "BTScanResultSet.cpp"
     ]
   }
 }
